@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "36OVR-backend",
+    "name": "server",
     "builds": [
         {
             "src": "index.js",
