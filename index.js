@@ -1,5 +1,5 @@
 const express = require('express')
-const http = require('https')
+const http = require('http')
 const socketIO = require('socket.io')
 const cors = require('cors')
 
@@ -14,7 +14,7 @@ app.use(cors())
 app.get('/', (req, res) => res.send("Welcome To Chatbot Backend"))
 
 
-const port = 5000 || process.env.PORT
+const port = process.env.PORT
 
 
 const server = http.createServer(app)
